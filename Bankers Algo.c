@@ -24,7 +24,9 @@ int main()
 	int avail[3] = { 3, 3, 2 };  
 
 	
-	int f[n], ans[n], ind = 0; 
+	int f[n];
+	int ans[n]; 
+	int ind = 0; 
 	for (k = 0; k < n; k++) { 
 		f[k] = 0; 
 	} 
